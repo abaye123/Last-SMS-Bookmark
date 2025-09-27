@@ -1,4 +1,4 @@
-# 📩 Last SMS Bookmarklet
+# 📩 Last SMS Bookmarklet v1.0.1
 
 Retrieve and extract verification codes from your most recent SMS message via the Yemot Virtual Plus API — all with one browser bookmark click.
 
