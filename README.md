@@ -21,11 +21,7 @@ Retrieve and extract verification codes from your most recent SMS message via th
 2. פתח את מנהל הסימניות (`Ctrl+Shift+O` בכרום/אדג').
 3. הוסף סימנייה חדשה, תן לה שם (כגון `SMS אחרון`).
 4. הדבק את הקוד בשדה כתובת (URL) — ודא שהוא מתחיל ב־`javascript:`.
-5. ערוך את השורה:
-   ```js
-   const token = "0555555555:12345";
-   ```
-   והכנס את הטוקן שלך משירות וירטואל פלוס.
+5. החלף את ACCESS_KEY במפתח גישה קבוע למערכת (ניתן להפיק בלשונית אבטחה באתר הניהול):
 6. שמור ולחץ על הסימנייה בכל עת שתרצה לשלוף את ה-SMS האחרון.
 
 ---
@@ -47,11 +43,7 @@ It also extracts any 4–7 digit numeric codes from the message and copies them 
 2. Open your browser’s Bookmark Manager (`Ctrl+Shift+O`).
 3. Add a new bookmark and name it (e.g., `Last SMS`).
 4. Paste the code into the **URL** field — make sure it starts with `javascript:`.
-5. Update the line:
-   ```js
-   const token = "0555555555:12345";
-   ```
-   with your own Yemot Virtual Plus API token.
+5. Replace ACCESS_KEY with a permanent access key for the system (can be generated in the Security tab on the administration site):
 6. Save and click the bookmark whenever you want to retrieve the last SMS.
 
 ---

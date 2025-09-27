@@ -1,6 +1,6 @@
 javascript: (function () {
-    const token = "0555555555:12345";
-    const url = `https://www.call2all.co.il/ym/api/GetIncomingSms?token=${encodeURIComponent(token)}&limit=1`;
+    const accessKey = "ACCESS_KEY";
+    const url = `https://www.call2all.co.il/ym/api/GetIncomingSms?token=${encodeURIComponent(accessKey)}&limit=1`;
 
     fetch(url)
         .then(res => res.json())
